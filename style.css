@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#0b1f3a;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+}
+
+header a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:600;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:60px 8%;
+    background:linear-gradient(135deg,#0b1f3a,#1e3c72);
+    color:white;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero span{
+    color:#ffc107;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.buttons a{
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:8px;
+    margin-right:10px;
+    color:#fff;
+    font-weight:bold;
+}
+
+.call{
+    background:#ff9800;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.image img{
+    width:450px;
+    border-radius:15px;
+}
+
+.services{
+    padding:60px 8%;
+    text-align:center;
+}
+
+.box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.box div{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background:#0b1f3a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+.gallery-box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery-item{
+    width:250px;
+    text-align:center;
+}
+
+.gallery-item img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.gallery-item h3{
+    margin-top:10px;
+}
+
+.gallery-item p{
+    font-size:14px;
+}
+.booking{
+    padding:60px 20px;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.booking h2{
+    font-size:35px;
+    color:#0b2c6b;
+    margin-bottom:25px;
+}
+
+.booking form{
+    max-width:600px;
+    margin:auto;
+}
+
+.booking input,
+.booking textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.booking textarea{
+    height:120px;
+    resize:none;
+}
+
+.booking button{
+    width:100%;
+    padding:15px;
+    background:#0b2c6b;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.booking button:hover{
+    background:#ff9800;
+}
+.reviews{
+    padding:60px 20px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.review-box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.review{
+    width:300px;
+    background:#f8f8f8;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.review h3{
+    margin:10px 0;
+    color:#0b2c6b;
+}
+
+.review p{
+    color:#555;
+    line-height:1.6;
+}
+.call-float{
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#0b2c6b;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+.whatsapp-float{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+.call-float:hover,
+.whatsapp-float:hover{
+    transform:scale(1.1);
+    transition:0.3s;
+}
+.location{
+    padding:60px 20px;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.location h2{
+    font-size:35px;
+    margin-bottom:20px;
+    color:#0b2c6b;
+}
+
+.location iframe{
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+footer{
+    background:#0b2c6b;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer h2{
+    margin-bottom:15px;
+}
+
+footer p{
+    margin:8px 0;
+}
+.slider{
+    text-align:center;
+    margin:20px 0;
+}
+
+.slider img{
+    width:280px;
+    height:200px;
+    object-fit:cover;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+.fare{
+    padding:50px 20px;
+    text-align:center;
+    background:#f8f8f8;
+}
+
+.fare input{
+    width:250px;
+    padding:12px;
+    font-size:18px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.fare button{
+    padding:12px 20px;
+    margin-left:260px;
+    background:#0b2c6b;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.fare button:hover{
+    background:#ff9800;
+}
+
+#result{
+    margin-top:20px;
+    color:#0b2c6b;
+}
+.booking-box{
+    width:380px;
+    margin:40px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:15px; 
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.booking-box h2{
+    color:#ff6600;
+    margin-bottom:20px;
+}
+
+.booking-box input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:2px solid #ff6600;
+    border-radius:8px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.booking-box button{
+    width:100%;
+    padding:12px;
+    background:#ff6600;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.booking-box button:hover{
+    background:#e65c00;
+}
+
+#result{
+    margin:20px 0;
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.book-btn{
+    display:block;
+    margin-top:10px;
+    padding:12px;
+    text-decoration:none;
+    background:#007bff;
+    color:white;
+    border-radius:8px;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+.fare-heading{
+    text-align:center;
+    font-size:40px;
+    color:black;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.fare-subheading{
+    text-align:center;
+    color:gray;
+    margin-bottom:25px;
+}
+.mydiv{
+    margin-left: 400px;
+    margin-top: 30px;
+    padding: 45px;
+}
+.mydiv1{
+    background-color: yellow;
+}
+.fare-calculator{
+    margin-left: 496px;
+}
